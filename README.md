@@ -18,3 +18,4 @@ Script to take spreadsheet of corrected Enum/Chron fields for Alma items and mak
 
 # Additional Notes
 - This script *only* makes changes to the Enumeration and Chronology fields, you *could* modify it to edit descriptions too, or you could run the "Rebuild Item Descriptions" job in Alma on the records after updating them if you also wanted to update those.
+- If you're not on an North American ExLibris server you'll also need to change the base URL at the top of the script to point to your region
